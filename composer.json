@@ -1,0 +1,25 @@
+{
+	"name": "scaredchatsky/image-seeder",
+	"description": "Image seeder for Laravel 5.4",
+	"type": "laravel",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"ScaredChatsky\\ImageSeeder\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "scaredChatsky",
+			"email": "scaredChatsky@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"fzaninotto/faker": "~1.4",
+		"php": ">=5.6.4 || ^7.0",
+		"illuminate/config": "^5.4",
+		"illuminate/database": "^5.4",
+		"illuminate/support": "^5.4"
+	}
+}
