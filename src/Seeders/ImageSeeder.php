@@ -20,7 +20,8 @@ class ImageSeeder extends Seeder
 			$faker->image(
 				config(static::CONFIG_KEY . '.images-path'),
 				config(static::CONFIG_KEY . '.images-width'),
-				config(static::CONFIG_KEY . '.images-height')
+				config(static::CONFIG_KEY . '.images-height'),
+				config(static::CONFIG_KEY . '.category')
 			);
 		}
 	}
